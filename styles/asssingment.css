@@ -174,7 +174,13 @@ nav ul{
     padding-right: 10
     ;
 }
-.last option{
+#siam{
+    height: 100px;
+    width:1440px ;
     display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
     align-items: center;
+    background-color: #0d132115;
+    
 }
