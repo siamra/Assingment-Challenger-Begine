@@ -38,7 +38,7 @@ nav ul li {
 .btn-secondary {
     color: white;
     padding: 21px 24px;
-    font-size: 30px;
+    font-size: 20px;
     background-color: black;
     border-radius: 10px;
 }
@@ -58,8 +58,6 @@ nav ul li {
     background-position: center;
     width: 1500px;
     height: 800px;
-    margin-left: 5%;
-    margin-right: 5%;
 }
 .banner-content {
     justify-content: center;
@@ -68,14 +66,14 @@ nav ul li {
     line-height: 60px;
 }
 .mid-section {
-    background-color: #fafafa;
     margin-left: 5%;
     margin-right: 5%;
     padding: 7%;
     border-radius: 5px;
     text-align: center;
-    width: 1500px;
-    height: 800px;
+}
+.c {
+    background-color: #fafafa;
 }
 .container {
     display: flex;
@@ -85,20 +83,96 @@ nav ul li {
     border-radius: 5px;
     margin: 20px;
     text-align: left;
-    font-size: 20px;
 }
 .c-text {
     padding: 60px;
     margin-left: 5%;
-    font-size: 24px;
+    font-size: 20px;
 }
 .c-img {
     padding: 60px;
     margin-right: 5%;
 }
-.c-text button{
-  height: 50px;
-  width: 200px;
-  font-size: 20px;
-  font-weight: semi bold;
+.c-text button {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
+.video {
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.video iframe {
+    border-radius: 5px;
+    padding: 10px;
+}
+.card {
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: space-around;
+    width: 300px;
+    height: 250px;
+    text-align: left !important;
+    padding: 20px;
+}
+.parent {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-1{
+  background-color: #e2d5d5;
+}
+.card-2{
+  background-color: #bbcfd7;
+}
+.card-3{
+  background-color: #f1f4dc;
+}
+.l-card{
+  border: 1px solid lightgray;
+  display: flex;
+  text-align: left;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.l-card img{
+  padding: 20px;
+}
+.f-parent{
+  background-image: url("../images/handshake.jpg");
+  color: #fff;
+  border-radius: 5px;
+}
+.f-parent input{
+  width: 50%;
+  height: 40px;
+  background-color: #FFF;
+  border: none;
+  border-radius: 5px;
+}
+.f-parent button{
+  background-color: #FFF;
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+}
+.f-parent p{
+  text-shadow: 3px 2px px 2px 2px #777;
+}
+.f-parent h1{
+  text-shadow: 3px 2px px 2px 2px #777;
+}
+.Last finishing{
+    display: flex;
+    justify-content: space-between;
+}
+.last section{
+    display: flex;
+    justify-content: space-between;
 }
