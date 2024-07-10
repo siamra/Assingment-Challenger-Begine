@@ -168,11 +168,13 @@ nav ul li {
 .f-parent h1{
   text-shadow: 3px 2px px 2px 2px #777;
 }
-.Last finishing{
+nav ul{
     display: flex;
     justify-content: space-between;
+    padding-right: 10
+    ;
 }
-.last section{
+.last option{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
